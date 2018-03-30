@@ -143,7 +143,10 @@ class Directions extends Component{
                 <hr/>
                 <h2 className="titleFont">See You There!</h2>
                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <img src="./images/atahotel.jpg" alt="sign" className="roundPhoto"/>
+                    <img src="./images/palacehotel.jpg" alt="sign" className="roundPhoto"/>
+                </div>
+                <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <img src="./images/stelviohotel.jpg" alt="sign" className="roundPhoto"/>
                 </div>
             </div>
         );
@@ -165,7 +168,7 @@ class Directions extends Component{
                 <hr/>
                 <div className="well backBlue whiteText rounded">
                     <h2><i className="fa fa-sun-o greenText" aria-hidden="true"></i>sagittis <em>egestas egestas fringilla phasellus</em></h2>
-                    <img src="./images/hotel3.jpg" width="70%" alt="sagittis" className="rounded"/>
+                    <img src="./images/stelviohotel.jpg" width="70%" alt="sagittis" className="rounded"/>
                     <hr/>
                     <p><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</b></p>
                     <p>Lorem ipsum dolor sit amet<b> consectetur adipiscing elit</b> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<b><a href="" target="_blank" rel="noopener noreferrer">Website</a></b></p>

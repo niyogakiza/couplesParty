@@ -44,7 +44,12 @@ class Registry extends Component{
                 <div className="well center-text animatedBack whiteText rounded col-xl-12 col-lg-12 col-md-12 col-xs-12 col-xs-12">
                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
                         <a rel="noopener noreferrer" target='_blank' href="#">
-                            <img src="./images/parents.jpg" className="roundPhoto jello-horizontal" alt="parents"/>
+                            <img src="./images/parents.jpg" className="roundPhoto jello-horizontal" alt="parents" />
+                        </a>
+                    </div>
+                    <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+                        <a rel="noopener noreferrer" target='_blank' href="#">
+                            <img src="./images/couple8.jpg" className="roundPhoto jello-horizontal" alt="parents" />
                         </a>
                     </div>
                 </div>

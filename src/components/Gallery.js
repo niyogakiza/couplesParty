@@ -8,7 +8,7 @@ class Gallery extends Component{
             mypics:[
                 "./images/couple1.jpg",
                 "./images/couple2.jpg",
-                "./images/couple3.jpg",
+                "./images/couple3a.jpg",
                 "./images/couple4.jpg",
                 "./images/couple5.jpg",
                 "./images/couple6.jpg",
@@ -91,7 +91,7 @@ class Gallery extends Component{
                     </p>
                 </div>
                 <hr/>
-                <h2>Gallery</h2>
+                <h2 style={{textAlign:"center"}}>Gallery</h2>
                 <hr/>
                 <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12">
                     <img src={this.state.mypics[this.state.pic1]} alt="gallery" className="galleryItem partyPhoto"/>

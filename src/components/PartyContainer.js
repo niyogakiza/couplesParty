@@ -11,7 +11,7 @@ class MainWrapper extends Component{
                     <Profile photo={'./images/couple2.jpg'} name={'mattis'} roleAt={'mattis'}/>
                 </div>
                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    <Profile photo={'./images/couple3.jpg'} name={'mattis'} roleAt={'mattis'}/>
+                    <Profile photo={'./images/couple3a.jpg'} name={'mattis'} roleAt={'mattis'}/>
                 </div>
                 <div className="noMargin noPadding col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <img className="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6 noMargin noPadding"
