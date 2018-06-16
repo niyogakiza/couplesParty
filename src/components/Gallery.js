@@ -19,8 +19,7 @@ class Gallery extends Component{
             pic2: 1,
             pic3:2,
             myInt:null
-        };
-        this.rotate = this.rotate.bind(this);
+        }
     }
 
     componentDidMount(){
@@ -31,7 +30,7 @@ class Gallery extends Component{
         clearInterval(this.myInt);
     }
 
-    rotate(){
+    rotate =() =>{
         let Len = this.state.mypics.length;
         if(this.state.pic1+1 < Len){
             this.setState({
@@ -60,7 +59,7 @@ class Gallery extends Component{
                 pic3:0
             })
         }
-    }
+    };
 
     render(){
         return(

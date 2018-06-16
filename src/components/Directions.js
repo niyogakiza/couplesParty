@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Hotel from './Hotel';
+import {Hotel} from './Hotel';
 
 
 class Directions extends Component{
@@ -33,34 +33,28 @@ class Directions extends Component{
                     stars:'5'
                 }
             ]
-        };
-        this.renderDirections = this.renderDirections.bind(this);
-        this.renderParking = this.renderParking.bind(this);
-        this.renderAccomodations = this.renderAccomodations.bind(this);
-        this.selectDirections = this.selectDirections.bind(this);
-        this.selectParking = this.selectParking.bind(this);
-        this.selectAccommodations = this.selectAccommodations.bind(this);
+        }
     }
 
-    selectDirections(){
+    selectDirections =() =>{
         this.setState({
             renderThis:'directions'
         });
-    }
+    };
 
-    selectParking(){
+    selectParking =()=>{
         this.setState({
             renderThis:'parking'
         });
-    }
+    };
 
-    selectAccommodations(){
+    selectAccommodations =()=>{
         this.setState({
             renderThis:'accommodations'
         });
-    }
+    };
 
-    renderDirections(){
+    renderDirections = () =>{
         return(
             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center padding20">
                 <h1 className="titleFont">Directions</h1>
@@ -96,9 +90,9 @@ class Directions extends Component{
                 </div>
             </div>
         );
-    }
+    };
 
-    renderParking(){
+    renderParking = () =>{
         return(
             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center padding20">
                 <h1 className="titleFont">Parking</h1>
@@ -150,9 +144,9 @@ class Directions extends Component{
                 </div>
             </div>
         );
-    }
+    };
 
-    renderAccomodations(){
+    renderAccomodations =() =>{
         return(
             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center padding20 rounded" >
                 <h1 className="titleFont">Accommodations</h1>

@@ -5,12 +5,10 @@ class Registry extends Component{
         super(props);
         this.state = {
             chosen: false
-        };
-        this.thank = this.thank.bind(this);
-        this.handleClick = this.handleClick.bind(this);
+        }
     }
 
-    thank(){
+    thank=() =>{
         return(
             <div className="padding20 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
                 <hr/>
@@ -18,13 +16,13 @@ class Registry extends Component{
                 <hr/>
             </div>
         )
-    }
+    };
 
-    handleClick(){
+    handleClick =()=>{
         this.setState({
             chosen: true
         })
-    }
+    };
 
     render(){
         return(
